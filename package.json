@@ -1,18 +1,26 @@
 {
-  "name": "Hot Dog Not Hot Dog - Educational Example",
+  "name": "hotdog-not-hotdog",
   "version": "1.0.0",
-  "description": "",
+  "description": "`npm install`",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shimanti/hotdog-not-hotdog.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shimanti/hotdog-not-hotdog/issues"
+  },
+  "homepage": "https://github.com/Shimanti/hotdog-not-hotdog#readme",
   "dependencies": {
     "@azure/cognitiveservices-computervision": "^8.1.0",
     "async": "^3.2.0",
-    "cloudinary": "^1.26.1",
+    "axios": "^0.21.1",
+    "cloudinary": "^1.26.2",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
